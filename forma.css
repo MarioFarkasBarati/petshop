@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.nulti{
+    margin: auto;
+}
+.link-1{
+	position: absolute;
+	top: 0px;
+	left: 110px;
+}
+
+.link-2{
+	position: absolute;
+	top: 0px;
+	left: 210px;
+}
+
+.link-3{
+	position: absolute;
+	top: 0px;
+	left: 310px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    color: white;
+    display: inline-block;
+    padding: 15px 16px;
+	text-decoration: none;
+}
+li a:hover{
+    background-color: red;
+}
+li img{
+    width: 100px;
+    height: 50px;
+    padding-top: 5px;
+}
+.linkovi{
+    text-transform: uppercase;
+}
+main{
+    background-color: #333;
+    max-width: 1920px;
+}
+.tekst{
+	color: #00e600;
+	width: 980px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+    	font-size: large;
+}
+fieldset{
+	color: #a6a6a6;
+	width: 980px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+    font-size: medium;
+    background-color: grey;
+    border: 0px;
+}
+form{
+    color: #990000;
+}
+legend{
+    color: #00e600;
+    text-decoration: underline;
+	position: absolute;
+	top: 110px;
+}
+.peti {
+	background-color: #1a1a1a;
+	width: 100%;
+	height: 290px;
+	text-align: center;
+	color: #a6a6a6;
+	padding: 10px;
+}
+.pom {
+	display: block;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+.kontakt {
+	margin-left: 750px;
+}
+.pom h1{
+    text-transform: uppercase;
+}
+@media only screen and (min-width:300px) and (max-width:414px) {
+    
+  }
+  
+  @media only screen and (min-width:768px) and (max-width:992px) {
+   
+}
